@@ -12,3 +12,4 @@ print(b.isalpha())#true
 c="lucky123"
 print(c.isalpha())#false
 
+

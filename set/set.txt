@@ -1,0 +1,10 @@
+
+A set is an unordered collection of unique elements in Python.
+
+
+Important Properties of Sets
+1. Sets do not allow duplicate values.
+2. Sets are unordered.
+3. Sets are mutable (we can add or remove elements).
+4. Sets do not support indexing or slicing.
+5. Sets can contain different data types.
