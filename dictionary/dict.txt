@@ -1,0 +1,18 @@
+A Dictionary in Python is known as a key-value pair data structure.
+
+It stores data in the form of keys and values, where each key is used to access its corresponding value.
+
+example:
+my_dict = {
+    "name": "Lucky",
+    "age": 21,
+    "course": "Data Science"
+}
+
+Dictionary is known as:
+- Key-value pair data structure
+- Mutable (can be modified)
+- Unordered in the traditional sense (Python preserves insertion order)
+- Keys are unique
+- Keys must be hashable (e.g., strings, integers, tuples with hashable elements)
+- Values can be of any data type
