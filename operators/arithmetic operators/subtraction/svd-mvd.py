@@ -1,11 +1,14 @@
-# int - int
-print(10 - 5)       # 5
+# int - list
+print(10 - [1, 2, 3])  # TypeError
 
-# int - float
-print(10 - 2.5)     # 7.5
+# int - tuple
+print(10 - (1, 2, 3))   # TypeError
 
-# int - complex
-print(10 - (2+3j))  # (8-3j)
+# int - set
+print(10 - {1, 2, 3})   # TypeError
 
-# bool - bool
-print(True - False) # 1
+# int - dict
+print(10 - {1: "a"})    # TypeError
+
+# int - str
+print(10 - "hello")     # TypeError
